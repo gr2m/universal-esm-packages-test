@@ -1,5 +1,9 @@
+import { subDependency } from "@universal-esm-packages-test/sub-dependency";
+export { subDependency } from "@universal-esm-packages-test/sub-dependency";
+
 export function dependency() {
-  console.log(
-    "[universal-esm-packages-test/dependency] dependency browser function"
-  );
+  return {
+    ...subDependency(),
+    dependency: "browser",
+  };
 }

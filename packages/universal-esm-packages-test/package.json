@@ -5,6 +5,6 @@
   "type": "module",
   "exports": "./index.js",
   "dependencies": {
-    "@universal-esm-packages-test/dependency": "file:../dependency"
+    "@universal-esm-packages-test/dependency": "^1.0.0"
   }
 }

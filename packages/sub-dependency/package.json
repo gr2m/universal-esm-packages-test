@@ -1,5 +1,5 @@
 {
-  "name": "@universal-esm-packages-test/dependency",
+  "name": "@universal-esm-packages-test/sub-dependency",
   "publishConfig": {
     "access": "public"
   },
@@ -9,8 +9,5 @@
   "exports": {
     "node": "./node.js",
     "default": "./browser.js"
-  },
-  "dependencies": {
-    "@universal-esm-packages-test/sub-dependency": "^1.0.0"
   }
 }
