@@ -1,0 +1,10 @@
+{
+  "name": "universal-esm-packages-test",
+  "version": "1.0.0",
+  "license": "ISC",
+  "type": "module",
+  "exports": "./index.js",
+  "dependencies": {
+    "@universal-esm-packages-test/dependency": "file:../dependency"
+  }
+}

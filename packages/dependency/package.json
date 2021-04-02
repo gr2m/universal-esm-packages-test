@@ -1,0 +1,10 @@
+{
+  "name": "@universal-esm-packages-test/dependency",
+  "version": "1.0.0",
+  "license": "ISC",
+  "type": "module",
+  "exports": {
+    "node": "./node.js",
+    "default": "./browser.js"
+  }
+}
